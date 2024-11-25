@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MovieInfoDetailsCollectionViewCell" customModule="AELMovieApp" customModuleProvider="target">
+            <connections>
+                <outlet property="descriptionLbl" destination="zgP-9j-xDP" id="QGH-nY-Zqz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="IeW-Uj-Qh6">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="102"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="hvu-kq-WKn">
+                <rect key="frame" x="0.0" y="0.0" width="345" height="102"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Label Label Label Label Label Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zgP-9j-xDP">
+                        <rect key="frame" x="8" y="8" width="329" height="86"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <color key="textColor" name="Color 4"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="zgP-9j-xDP" secondAttribute="bottom" constant="8" id="RZa-CP-FAv"/>
+                    <constraint firstAttribute="trailing" secondItem="zgP-9j-xDP" secondAttribute="trailing" constant="8" id="kV3-nR-TRE"/>
+                    <constraint firstItem="zgP-9j-xDP" firstAttribute="top" secondItem="hvu-kq-WKn" secondAttribute="top" constant="8" id="x4q-lz-oke"/>
+                    <constraint firstItem="zgP-9j-xDP" firstAttribute="leading" secondItem="hvu-kq-WKn" secondAttribute="leading" constant="8" id="xRP-wq-sTW"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="345" height="102"/>
+            <point key="canvasLocation" x="-292" y="-32"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Color 4">
+            <color red="0.50196078431372548" green="0.61568627450980395" blue="0.62745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
